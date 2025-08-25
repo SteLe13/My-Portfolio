@@ -166,8 +166,9 @@ const SkillsPage = () => {
             Technical Skills
           </h1>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed">
-            A comprehensive overview of my technical expertise, from programming languages 
-            to frameworks, tools, and technologies I've mastered throughout my career.
+            A comprehensive overview of my technical expertise, from programming languages and frameworks 
+            to Web3 & blockchain technologies. This represents my full-stack development capabilities 
+            with specialized focus on decentralized applications and smart contract development.
           </p>
         </div>
 
@@ -275,9 +276,10 @@ const SkillsPage = () => {
               Continuous Learning
             </h2>
             <p className="text-lg text-slate-600 max-w-3xl mx-auto leading-relaxed">
-              Technology evolves rapidly, and I believe in staying current with the latest trends and best practices. 
-              I regularly invest time in learning new technologies, contributing to open-source projects, 
-              and sharing knowledge with the developer community.
+              The Web3 landscape evolves at lightning speed, and staying ahead requires constant learning and adaptation. 
+              I'm passionate about mastering emerging blockchain protocols, contributing to DeFi innovations, 
+              and sharing knowledge within the cryptocurrency community. My hospitality background taught me that 
+              success comes from continuously improving the user experience—a principle I apply to every dApp I build.
             </p>
           </CardContent>
         </Card>
