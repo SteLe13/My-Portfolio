@@ -58,7 +58,7 @@ const ContactPage = () => {
       label: 'Email',
       value: personalInfo.email,
       href: `mailto:${personalInfo.email}`,
-      description: 'Best for detailed discussions and project inquiries',
+      description: 'Best for Web3 project discussions, DeFi collaborations, and smart contract consulting',
       color: 'text-blue-600',
       bgColor: 'bg-blue-100'
     },
@@ -67,7 +67,7 @@ const ContactPage = () => {
       label: 'Phone',
       value: personalInfo.phone,
       href: `tel:${personalInfo.phone}`,
-      description: 'Available for urgent matters and quick calls',
+      description: 'Available for urgent blockchain development matters and Web3 project discussions',
       color: 'text-green-600',
       bgColor: 'bg-green-100'
     },
@@ -76,7 +76,7 @@ const ContactPage = () => {
       label: 'LinkedIn',
       value: 'Connect with me',
       href: personalInfo.linkedinUrl,
-      description: 'Professional networking and career opportunities',
+      description: 'Professional networking, Web3 career opportunities, and blockchain industry connections',
       color: 'text-blue-700',
       bgColor: 'bg-blue-100'
     },
@@ -85,19 +85,20 @@ const ContactPage = () => {
       label: 'GitHub',
       value: 'View my code',
       href: personalInfo.githubUrl,
-      description: 'Explore my open-source contributions and projects',
+      description: 'Explore my Web3 projects, smart contracts, Aptos Billboard dApp, and full-stack development',
       color: 'text-slate-700',
       bgColor: 'bg-slate-100'
     }
   ]
 
   const quickTopics = [
-    'Freelance Project',
-    'Full-time Opportunity',
-    'Consulting Work',
-    'Technical Discussion',
-    'Collaboration',
-    'Mentoring'
+    'Web3 Development Project',
+    'Smart Contract Development',
+    'Aptos Blockchain dApp',
+    'DeFi Project Collaboration',
+    'Full-time Web3 Opportunity',
+    'Ethereum Development',
+    'Blockchain Consulting'
   ]
 
   return (
@@ -111,11 +112,12 @@ const ContactPage = () => {
             </div>
           </div>
           <h1 className="text-4xl lg:text-5xl font-bold text-slate-900 mb-4">
-            Let's Connect
+            Let's Build Web3 Together
           </h1>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed">
-            I'm always interested in new opportunities, interesting projects, and meaningful conversations. 
-            Whether you have a question, a project idea, or just want to say hello, I'd love to hear from you.
+            Ready to build the future of Web3 together? I'm passionate about collaborating on innovative dApp projects, 
+            DeFi solutions, and smart contract development. My unique blend of hospitality-driven UX design and 
+            blockchain expertise ensures we'll create Web3 applications that users actually love to use.
           </p>
         </div>
 
@@ -348,8 +350,8 @@ const ContactPage = () => {
                 Ready to start a conversation?
               </h2>
               <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
-                Whether you have a project in mind, want to discuss opportunities, 
-                or just want to connect, I'm here and ready to chat.
+                Whether you have a dApp project in mind, want to discuss DeFi opportunities, 
+                or need a blockchain developer with business acumen, I'm here and ready to collaborate.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a href={`mailto:${personalInfo.email}`}>
