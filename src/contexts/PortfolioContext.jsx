@@ -65,7 +65,7 @@ const initialPortfolioData = {
       id: 3,
       companyName: "StartupXYZ",
       positionTitle: "Frontend Developer",
-      startDate: "2018-03-01",
+      startDate: "2023-03-01",
       endDate: "2020-05-31",
       isCurrent: false,
       location: "San Francisco, CA",
