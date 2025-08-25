@@ -57,11 +57,13 @@ const HomePage = () => {
                 </h1>
                 
                 <h2 className="text-xl lg:text-2xl text-slate-600 font-medium">
-                  {personalInfo.title}
+                  Full-Stack Developer | Web3 & Blockchain Engineer
                 </h2>
                 
                 <p className="text-lg text-slate-600 leading-relaxed max-w-2xl">
-                  {personalInfo.tagline}
+                  Driven by a deep passion for cryptocurrency and decentralized technologies, I bring 2 years of focused Web3 development experience. 
+                  My unique background in Hospitality Management and Finance provides exceptional business acumen that I now apply to building 
+                  innovative blockchain solutions with Python, JavaScript, Go, and Solidity across Ethereum and Aptos ecosystems.
                 </p>
               </div>
 
@@ -124,12 +126,12 @@ const HomePage = () => {
                     {/* Quick Stats */}
                     <div className="grid grid-cols-2 gap-4 text-center">
                       <div>
-                        <div className="text-2xl font-bold text-slate-900">{experiences.length}+</div>
-                        <div className="text-sm text-slate-600">Years Experience</div>
+                        <div className="text-2xl font-bold text-slate-900">2</div>
+                        <div className="text-sm text-slate-600">Years Web3</div>
                       </div>
                       <div>
                         <div className="text-2xl font-bold text-slate-900">{projects.length}+</div>
-                        <div className="text-sm text-slate-600">Projects Built</div>
+                        <div className="text-sm text-slate-600">dApps Built</div>
                       </div>
                     </div>
                     
@@ -155,11 +157,11 @@ const HomePage = () => {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold text-slate-900 mb-4">
-              Featured Projects
+              Featured Web3 Projects
             </h2>
             <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-              Here are some of my recent projects that showcase my skills and experience
-              in full-stack development.
+              Showcasing my latest decentralized applications and blockchain innovations, 
+              from smart contract development to full-stack dApp architecture.
             </p>
           </div>
 
@@ -241,11 +243,11 @@ const HomePage = () => {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold text-slate-900 mb-4">
-              Technical Expertise
+              Web3 & Blockchain Expertise
             </h2>
             <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-              I specialize in modern web technologies and have extensive experience
-              across the full development stack.
+              Proficient in cutting-edge blockchain technologies, smart contract development, 
+              and decentralized application architecture across multiple ecosystems.
             </p>
           </div>
 
@@ -294,43 +296,52 @@ const HomePage = () => {
                 <div className="space-y-6">
                   <div className="flex items-center gap-2 text-blue-600">
                     <Briefcase className="w-5 h-5" />
-                    <span className="text-sm font-medium">Current Role</span>
+                    <span className="text-sm font-medium">Professional Journey</span>
                   </div>
                   
                   <div>
                     <h2 className="text-3xl lg:text-4xl font-bold text-slate-900 mb-4">
-                      {recentExperience.positionTitle}
+                      From Hospitality to Web3 Innovation
                     </h2>
                     <h3 className="text-xl text-blue-600 font-semibold mb-2">
-                      {recentExperience.companyName}
+                      Building Decentralized Solutions
                     </h3>
                     <div className="flex items-center gap-4 text-slate-600 mb-6">
                       <div className="flex items-center gap-1">
                         <Calendar className="w-4 h-4" />
                         <span className="text-sm">
-                          {new Date(recentExperience.startDate).getFullYear()} - Present
+                          2+ Years in Web3 Development
                         </span>
                       </div>
                       <div className="flex items-center gap-1">
-                        <MapPin className="w-4 h-4" />
-                        <span className="text-sm">{recentExperience.location}</span>
+                        <GraduationCap className="w-4 h-4" />
+                        <span className="text-sm">Bachelor's in Hospitality + Finance</span>
                       </div>
                     </div>
                   </div>
 
                   <p className="text-lg text-slate-600 leading-relaxed">
-                    {recentExperience.description}
+                    My Bachelor's degree in Hospitality Management with a Finance minor isn't just my educational background—it's my secret weapon. 
+                    This foundation gives me unparalleled insights into business operations, financial principles, and user experience that I now leverage 
+                    to create Web3 solutions that bridge complex blockchain technology with intuitive user needs. I don't just build dApps; 
+                    I build experiences that users actually want to engage with.
                   </p>
 
                   <div className="space-y-3">
-                    <h4 className="font-semibold text-slate-900">Key Achievements:</h4>
+                    <h4 className="font-semibold text-slate-900">Key Strengths:</h4>
                     <ul className="space-y-2">
-                      {recentExperience.achievements.slice(0, 3).map((achievement, index) => (
-                        <li key={index} className="flex items-start gap-3">
-                          <div className="w-2 h-2 bg-blue-600 rounded-full mt-2 flex-shrink-0"></div>
-                          <span className="text-slate-600">{achievement}</span>
-                        </li>
-                      ))}
+                      <li className="flex items-start gap-3">
+                        <div className="w-2 h-2 bg-blue-600 rounded-full mt-2 flex-shrink-0"></div>
+                        <span className="text-slate-600">Aptos Billboard dApp: Interactive blockchain messaging with wallet integration</span>
+                      </li>
+                      <li className="flex items-start gap-3">
+                        <div className="w-2 h-2 bg-blue-600 rounded-full mt-2 flex-shrink-0"></div>
+                        <span className="text-slate-600">Dynamic Portfolio with Spring Boot backend and React frontend</span>
+                      </li>
+                      <li className="flex items-start gap-3">
+                        <div className="w-2 h-2 bg-blue-600 rounded-full mt-2 flex-shrink-0"></div>
+                        <span className="text-slate-600">Hospitality-informed UX design for Web3 accessibility and user engagement</span>
+                      </li>
                     </ul>
                   </div>
                 </div>
@@ -344,18 +355,18 @@ const HomePage = () => {
                         <Briefcase className="w-10 h-10 text-white" />
                       </div>
                       <h3 className="text-xl font-semibold text-slate-900">
-                        Professional Experience
+                        Web3 Development Focus
                       </h3>
                     </div>
                     
                     <div className="grid grid-cols-2 gap-4 text-center">
                       <div className="p-4 bg-white rounded-lg">
-                        <div className="text-2xl font-bold text-blue-600">{experiences.length}</div>
-                        <div className="text-sm text-slate-600">Companies</div>
+                        <div className="text-2xl font-bold text-blue-600">4</div>
+                        <div className="text-sm text-slate-600">Languages</div>
                       </div>
                       <div className="p-4 bg-white rounded-lg">
-                        <div className="text-2xl font-bold text-purple-600">8+</div>
-                        <div className="text-sm text-slate-600">Years</div>
+                        <div className="text-2xl font-bold text-purple-600">2</div>
+                        <div className="text-sm text-slate-600">Blockchains</div>
                       </div>
                     </div>
 
@@ -379,11 +390,11 @@ const HomePage = () => {
       <section className="py-20 bg-gradient-to-r from-blue-600 to-purple-600 text-white">
         <div className="max-w-4xl mx-auto px-6 text-center">
           <h2 className="text-3xl lg:text-4xl font-bold mb-6">
-            Ready to work together?
+            Ready to build the future together?
           </h2>
           <p className="text-xl text-blue-100 mb-8 leading-relaxed">
-            I'm always interested in new opportunities and exciting projects.
-            Let's discuss how we can bring your ideas to life.
+            I'm actively seeking opportunities to contribute to groundbreaking Web3 projects and DeFi innovations. 
+            With my unique blend of business acumen and blockchain expertise, let's build the next generation of decentralized applications together.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link to="/contact">
