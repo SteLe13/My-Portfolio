@@ -155,12 +155,13 @@ const ProjectsPage = () => {
               <FolderOpen className="w-12 h-12 text-purple-600" />
             </div>
           </div>
-          <h1 className="text-4xl lg:text-5xl font-bold text-slate-900 mb-4">
-            My Projects
+                    <h1 className="text-4xl lg:text-5xl font-bold text-slate-900 mb-4">
+            Web3 Projects Portfolio
           </h1>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed">
-            A showcase of my work, from personal experiments to production applications. 
-            Each project represents a learning journey and a step forward in my development as an engineer.
+            Explore my collection of decentralized applications and blockchain innovations, featuring the Aptos Billboard dApp 
+            and this dynamic portfolio website. Each project demonstrates my ability to bridge complex Web3 technology 
+            with exceptional user experiences, leveraging my unique background in business and finance.
           </p>
         </div>
 
@@ -230,7 +231,7 @@ const ProjectsPage = () => {
 
         {/* Technology Cloud */}
         <div className="mt-20 text-center">
-          <h2 className="text-3xl font-bold text-slate-900 mb-8">Technologies I've Used</h2>
+          <h2 className="text-3xl font-bold text-slate-900 mb-8">Web3 & Development Technologies</h2>
           <div className="flex flex-wrap justify-center gap-3 max-w-4xl mx-auto">
             {allTechnologies.map((tech, index) => (
               <Badge key={index} variant="secondary" className="text-sm py-2 px-4">
