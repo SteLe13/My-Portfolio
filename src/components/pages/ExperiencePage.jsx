@@ -45,11 +45,13 @@ const ExperiencePage = () => {
             </div>
           </div>
           <h1 className="text-4xl lg:text-5xl font-bold text-slate-900 mb-4">
-            Professional Experience
+            Professional Journey
           </h1>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed">
-            A journey through my career, highlighting key roles, achievements, and the technologies 
-            I've worked with to deliver impactful solutions.
+            My unique journey from hospitality excellence to Web3 innovation demonstrates how business acumen, 
+            user experience expertise, and financial knowledge translate into exceptional blockchain development. 
+            Each role in my hospitality career built skills that now drive my success in creating user-centric dApps 
+            and business-viable Web3 solutions.
           </p>
         </div>
 
@@ -232,4 +234,5 @@ const ExperiencePage = () => {
 }
 
 export default ExperiencePage
+
 
